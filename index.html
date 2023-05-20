@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>library system</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <h1>Library system</h1>
+        <ul>
+            <li><a href="#books">Books</a></li>
+            <li>Register</li>
+            <li>Contact us</li>
+            <li>Log out</li>
+        </ul>
+    </nav>
+    
+    <div id="books" >
+        <h1>Books</h1>
+        <table >
+            <tr>
+                <th>Book id</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Availability</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td><a href="https://en.wikipedia.org/wiki/I_Am_Malala">I Am Malala</a>
+                    <table>
+                        <tr><td>Publication Date: 8 Oct 2013</td></tr>
+                        <tr><td>Page Count: 288</td></tr>
+                        <tr><td>ISBN: 978-0-29787-091-3</td></tr>
+                    </table>
+                </td>
+                <td> Malala Yousafzai, Christina Lamb</td>
+                <td>Biography, Autobiography</td>
+                <td>Available</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td><a href="https://www.google.co.in/books/edition/The_Power_of_Your_Subconscious_Mind/gOyfEAAAQBAJ?hl=en&gbpv=0">The Power of Your Subconscious Mind</a>
+                    <table>
+                        <tr><td>Publication Date: 6 December 2022</td></tr>
+                        <tr><td>Page Count: 242</td></tr>
+                        <tr><td>ISBN: 9789352663705</td></tr>
+                    </table>
+                </td>
+                <td>Joseph Murphy</td>
+                <td>Self-help book</td>
+                <td>Available</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td><a href="https://www.google.co.in/books/edition/The_Secret/2sN5kscWNgEC?hl=en&sa=X&ved=2ahUKEwi13fG4zIP_AhWwamwGHfYRA_4QiqUDegQIGBAM">The Secret</a>
+                    <table>
+                        <tr><td>Publication Date: November 2006</td></tr>
+                        <tr><td>Page Count: 198</td></tr>
+                        <tr><td>ISBN: 9781582701707</td></tr>
+                    </table>
+                </td>
+                <td>Rhonda Byrne</td>
+                <td>Self-help book</td>
+                <td>Not-Available</td>
+              </tr> 
+           
+        </table>
+    </div>
+
+    <br>
+    <br>
+    <div>
+        <h1>Register</h1>
+
+       
+        <form action="/action_page.php">
+            <label for="first_Name">First Name:</label><br>
+            <input type="text" id="first_name" name="first_name" required>
+            <br>
+       
+            <label for="last_name">Last Name:</label><br>
+            <input type="text" name="last_name" id="last_name" required>
+            <br>
+
+            <label for="dob">Date Of Birth:</label><br>
+            <input type="text " name="bob" id="dob" required>
+            <br>
+
+            <label for="age">Age:</label><br>
+            <input type="date" name="age" id="age" required>
+            <br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="age" name="age" required>
+            <br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="passwor" required>
+            <br>
+
+            <label for="password">Confirm Password:</label><br>
+            <input type="password" id="password" name="password" required>
+            <br>
+
+
+
+
+            <button type="submit" class="submit">Register</button>
+        </form>
+    </div>
+
+
+</body>
+</html>
