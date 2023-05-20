@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: Arial, Tahoma, Serif;
+    color:bisque;
+  }
+
+  nav {
+    display: flex; 
+    justify-content: space-between;
+    padding: 20 10 10 10; 
+    width: 100%;
+    background: black; 
+    color: #f2f5f7; 
+    position: fixed;
+  }
+  
+  nav ul {
+    display: flex; 
+    list-style: none;
+  }
+  
+  nav li {
+    padding-left: 1rem;
+  }
+
+  
+  div{
+    margin-left: 200px;
+    margin-right: 200px;
+    color: black;
+    border: 1px solid black;
+    background: wheat
+  }
+
+  table td{
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    font-size: 10;
+}
+
+  table,tr,th,td{
+    
+    color: black;
+    border: 1px black solid;
+    border-collapse: collapse;
+  }
+
+  table{
+    margin: 5;
+  }
+
+  input{
+    width: 100%;
+    margin-left: 5;
+    margin-right: 5;
+  }
+
+  label{
+
+  }
+
+  button{
+    background: black;
+    color: aliceblue;
+    width: 100%;
+  }
